@@ -110,7 +110,7 @@ const Contact = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="mailto:your.email@example.com"
-                  className="inline-flex items-center justify-center px-8 py-3 bg-blue-400 text-white font-semibold rounded-xl hover:bg-blue-500 transition-all duration-300 transform hover:scale-105 shadow-sm hover:shadow-md"
+                  className="inline-flex items-center justify-center px-8 py-3 bg-blue-200 text-white font-semibold rounded-xl hover:bg-blue-400 transition-all duration-300 transform hover:scale-105 shadow-sm hover:shadow-md"
                 >
                   <svg
                     className="w-5 h-5 mr-2"
