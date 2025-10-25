@@ -14,7 +14,6 @@ const Contact = () => {
       url: "https://github.com/yand06",
       color: "hover:text-slate-600",
       bgColor: "bg-slate-50 hover:bg-slate-100",
-      bgGradient: "from-slate-50 to-slate-100",
     },
     {
       name: "LinkedIn",
@@ -26,7 +25,6 @@ const Contact = () => {
       url: "https://www.linkedin.com/in/supriyandi-la-awe",
       color: "hover:text-sky-500",
       bgColor: "bg-sky-50 hover:bg-sky-100",
-      bgGradient: "from-sky-50 to-blue-50",
     },
     {
       name: "Instagram",
@@ -38,7 +36,6 @@ const Contact = () => {
       url: "https://instagram.com/yand_la",
       color: "hover:text-rose-400",
       bgColor: "bg-rose-50 hover:bg-rose-100",
-      bgGradient: "from-rose-50 to-pink-50",
     },
     {
       name: "Twitter",
@@ -50,22 +47,18 @@ const Contact = () => {
       url: "https://twitter.com/#",
       color: "hover:text-slate-600",
       bgColor: "bg-slate-50 hover:bg-slate-100",
-      bgGradient: "from-slate-50 to-gray-100",
     },
   ];
 
   return (
-    <section
-      id="contact"
-      className="py-20 bg-gradient-to-br from-blue-50/30 via-purple-50/20 to-pink-50/30"
-    >
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="py-20 bg-blue-50">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 mb-4">
             Let's Connect
           </h2>
-          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto">
             Have an exciting project or idea in mind? I'm ready to help bring it
             to life. Let's connect and create something remarkable together.
           </p>
@@ -73,23 +66,21 @@ const Contact = () => {
 
         {/* Social Links - Centered Layout */}
         <div className="max-w-3xl mx-auto">
-          <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg p-8 md:p-12 border border-slate-100">
-            <h3 className="text-2xl md:text-3xl font-bold text-slate-800 mb-8 text-center">
+          <div className="bg-white rounded-2xl border border-slate-200 p-8 md:p-12">
+            <h3 className="text-xl sm:text-2xl font-bold text-slate-800 mb-8 text-center">
               Connect With Me
             </h3>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {socialLinks.map((social) => (
                 <a
                   key={social.name}
                   href={social.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`flex flex-col items-center justify-center p-6 ${social.bgColor} rounded-2xl transition-all duration-300 transform hover:scale-110 hover:shadow-md text-slate-500 ${social.color} group border border-transparent hover:border-slate-200`}
+                  className={`flex flex-col items-center justify-center p-6 ${social.bgColor} rounded-xl transition-colors duration-300 text-slate-500 ${social.color} border border-transparent hover:border-slate-200`}
                 >
-                  <div className="mb-3 transform group-hover:scale-110 transition-transform duration-300">
-                    {social.icon}
-                  </div>
+                  <div className="mb-3">{social.icon}</div>
                   <span className="text-sm font-semibold text-slate-600">
                     {social.name}
                   </span>
@@ -101,16 +92,15 @@ const Contact = () => {
             <div className="my-10 border-t border-slate-200"></div>
 
             {/* Additional Info */}
-            {/* Additional Info */}
             <div className="text-center">
-              <p className="text-slate-600 mb-6">
+              <p className="text-slate-600 mb-6 text-sm sm:text-base">
                 Feel free to reach out for collaborations, opportunities, or
                 just a friendly chat!
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="mailto:your.email@example.com"
-                  className="inline-flex items-center justify-center px-8 py-3 bg-blue-200 text-white font-semibold rounded-xl hover:bg-blue-400 transition-all duration-300 transform hover:scale-105 shadow-sm hover:shadow-md"
+                  className="inline-flex items-center justify-center px-6 sm:px-8 py-3 bg-blue-400 text-white font-semibold rounded-xl hover:bg-blue-500 transition-colors duration-300"
                 >
                   <svg
                     className="w-5 h-5 mr-2"
@@ -131,7 +121,7 @@ const Contact = () => {
                   href="https://wa.me/6281234567890"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-8 py-3 border-2 border-emerald-300 text-emerald-600 font-semibold rounded-xl hover:bg-emerald-50 transition-all duration-300 transform hover:scale-105"
+                  className="inline-flex items-center justify-center px-6 sm:px-8 py-3 border-2 border-emerald-300 text-emerald-600 font-semibold rounded-xl hover:bg-emerald-50 transition-colors duration-300"
                 >
                   <svg
                     className="w-5 h-5 mr-2"
