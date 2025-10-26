@@ -3,14 +3,14 @@ const Home = () => {
     <section id="home" className="min-h-screen bg-white">
       <div className="min-h-screen grid grid-cols-1 lg:grid-cols-12 gap-0">
         {/* Left Side - Simplified Decorative */}
-        <div className="hidden lg:flex lg:col-span-5 bg-blue-50 items-center justify-center p-12 relative overflow-hidden">
+        <div className="hidden lg:flex lg:col-span-5 bg-slate-50 items-center justify-center p-12 relative overflow-hidden">
           <div className="absolute top-20 left-20 w-64 h-64 bg-indigo-100 rounded-full blur-3xl opacity-60"></div>
           <div className="absolute bottom-20 right-20 w-80 h-80 bg-purple-100 rounded-full blur-3xl opacity-50"></div>
         </div>
 
         {/* Right Side - Content */}
-        <div className="lg:col-span-7 flex items-center justify-center p-8 sm:p-12 lg:p-16 bg-white">
-          <div className="max-w-xl w-full space-y-10">
+        <div className="lg:col-span-7 flex items-start justify-center pt-44 sm:pt-24 lg:pt-12 p-8 sm:p-12 lg:p-12 bg-white">
+          <div className="max-w-xl w-full space-y-8">
             {/* Main Heading */}
             <div className="space-y-6">
               <p className="text-lg sm:text-xl text-slate-400 font-light">

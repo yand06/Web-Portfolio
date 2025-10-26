@@ -51,7 +51,7 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-blue-50">
+    <section id="contact" className="py-8 bg-slate-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
@@ -66,7 +66,7 @@ const Contact = () => {
 
         {/* Social Links - Centered Layout */}
         <div className="max-w-3xl mx-auto">
-          <div className="bg-white rounded-2xl border border-slate-200 p-8 md:p-12">
+          <div className="bg-white rounded-2xl border border-slate-200 p-6 md:p-12">
             <h3 className="text-xl sm:text-2xl font-bold text-slate-800 mb-8 text-center">
               Connect With Me
             </h3>
