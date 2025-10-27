@@ -9,17 +9,17 @@ const Home = () => {
         </div>
 
         {/* Right Side - Content */}
-        <div className="lg:col-span-7 flex items-start justify-center pt-44 sm:pt-24 lg:pt-12 p-8 sm:p-12 lg:p-12 bg-white">
+        <div className="lg:col-span-7 flex items-start justify-center pt-48 sm:pt-24 md:pt-68 lg:pt-24 p-8 sm:p-12 lg:p-12 bg-white">
           <div className="max-w-xl w-full space-y-8">
             {/* Main Heading */}
             <div className="space-y-6">
               <p className="text-lg sm:text-xl text-slate-400 font-light">
                 Hello, I'm
               </p>
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-slate-800 leading-tight">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-bold text-slate-800 leading-tight">
                 Supriyandi
                 <br />
-                <span className="text-indigo-400">La Awe</span>
+                <span className="text-indigo-300">La Awe</span>
               </h1>
             </div>
 
