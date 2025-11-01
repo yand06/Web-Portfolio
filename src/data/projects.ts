@@ -1,3 +1,7 @@
+import uiTablet from "../assets/UI-in-Tablet.png";
+import uiDesktop from "../assets/UI-in-Desktop.png";
+import uiMobile from "../assets/UI-in-Mobile.png";
+
 export interface Project {
   id: number;
   title: string;
@@ -14,7 +18,7 @@ export const projects: Project[] = [
     title: "E-Commerce Platform",
     description:
       "Full-stack e-commerce website dengan React, Node.js, dan MongoDB. Fitur lengkap termasuk payment gateway dan admin dashboard.",
-    image: "https://via.placeholder.com/400x300/667eea/ffffff?text=E-Commerce",
+    image: uiDesktop,
     github: "https://github.com/username/ecommerce",
     demo: "https://demo.example.com",
     tags: ["React", "Node.js", "MongoDB"],
@@ -24,8 +28,7 @@ export const projects: Project[] = [
     title: "Task Management App",
     description:
       "Aplikasi manajemen tugas dengan fitur drag & drop, real-time updates menggunakan Firebase.",
-    image:
-      "https://via.placeholder.com/400x300/764ba2/ffffff?text=Task+Manager",
+    image: uiTablet,
     github: "https://github.com/username/task-manager",
     demo: "https://demo.example.com",
     tags: ["React", "Firebase", "Tailwind"],
@@ -35,7 +38,7 @@ export const projects: Project[] = [
     title: "Weather Dashboard",
     description:
       "Dashboard cuaca interaktif dengan visualisasi data menggunakan Chart.js dan API cuaca real-time.",
-    image: "https://via.placeholder.com/400x300/f093fb/ffffff?text=Weather+App",
+    image: uiMobile,
     github: "https://github.com/username/weather-dashboard",
     tags: ["React", "API", "Chart.js"],
   },
