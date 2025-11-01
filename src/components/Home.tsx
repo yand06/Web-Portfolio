@@ -19,7 +19,7 @@ const Home = () => {
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-bold text-slate-800 leading-tight">
                 Supriyandi
                 <br />
-                <span className="text-indigo-300">La Awe</span>
+                <span className="text-slate-400">La Awe</span>
               </h1>
             </div>
 

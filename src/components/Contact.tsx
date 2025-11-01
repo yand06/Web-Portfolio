@@ -24,7 +24,7 @@ const Contact = () => {
       ),
       url: "https://www.linkedin.com/in/supriyandi-la-awe",
       color: "hover:text-sky-500",
-      bgColor: "bg-sky-50 hover:bg-sky-100",
+      bgColor: "bg-slate-50 hover:bg-sky-100",
     },
     {
       name: "Instagram",
@@ -35,7 +35,7 @@ const Contact = () => {
       ),
       url: "https://instagram.com/yand_la",
       color: "hover:text-rose-400",
-      bgColor: "bg-rose-50 hover:bg-rose-100",
+      bgColor: "bg-slate-50 hover:bg-rose-100",
     },
     {
       name: "Twitter",

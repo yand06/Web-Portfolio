@@ -31,7 +31,7 @@ const Projects = () => {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="px-3 py-1 bg-indigo-100 text-indigo-600 text-xs rounded-full"
+                      className="px-3 py-1 bg-slate-100 text-slate-600 text-xs rounded-full"
                     >
                       {tag}
                     </span>
@@ -43,7 +43,7 @@ const Projects = () => {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-700 hover:text-indigo-600 transition-colors"
+                    className="text-gray-700 hover:text-slate-400 transition-colors"
                   >
                     GitHub
                   </a>
@@ -52,7 +52,7 @@ const Projects = () => {
                       href={project.demo}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-700 hover:text-indigo-600 transition-colors"
+                      className="text-gray-700 hover:text-slate-400 transition-colors"
                     >
                       Live Demo
                     </a>

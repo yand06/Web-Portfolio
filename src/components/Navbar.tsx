@@ -37,7 +37,7 @@ const Navbar = () => {
                 <h1 className="font-bold text-xl text-gray-900 tracking-tight">
                   Supriyandi La Awe
                 </h1>
-                <p className="text-sm text-indigo-600 font-medium">
+                <p className="text-sm text-slate-400 font-medium">
                   Fullstack Developer
                 </p>
               </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
                 </span>
                 <a
                   href="mailto:supriyandilaawe@gmail.com"
-                  className="text-sm text-gray-800 hover:text-indigo-600 transition-colors"
+                  className="text-sm text-gray-800 hover:text-slate-400 transition-colors"
                 >
                   supriyandilaawe@gmail.com
                 </a>
@@ -65,7 +65,7 @@ const Navbar = () => {
                 </span>
                 <a
                   href="tel:+6282198069466"
-                  className="text-sm text-gray-800 hover:text-indigo-600 transition-colors"
+                  className="text-sm text-gray-800 hover:text-slate-400 transition-colors"
                 >
                   +62 821-9806-9466
                 </a>
@@ -77,7 +77,7 @@ const Navbar = () => {
                   href="https://github.com/yand06"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-gray-100 hover:bg-indigo-600 hover:text-white text-gray-700 rounded-lg p-2 transition-all duration-300 transform hover:scale-110"
+                  className="bg-gray-100 hover:bg-slate-400 hover:text-white text-gray-700 rounded-lg p-2 transition-all duration-300 transform hover:scale-110"
                   aria-label="GitHub"
                 >
                   <FaGithub size={20} />
@@ -86,7 +86,7 @@ const Navbar = () => {
                   href="https://linkedin.com/in/supriyandi-la-awe"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-gray-100 hover:bg-indigo-600 hover:text-white text-gray-700 rounded-lg p-2 transition-all duration-300 transform hover:scale-110"
+                  className="bg-gray-100 hover:bg-slate-400 hover:text-white text-gray-700 rounded-lg p-2 transition-all duration-300 transform hover:scale-110"
                   aria-label="LinkedIn"
                 >
                   <FaLinkedin size={20} />
@@ -95,7 +95,7 @@ const Navbar = () => {
                   href="https://instagram.com/yand_la"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-gray-100 hover:bg-indigo-600 hover:text-white text-gray-700 rounded-lg p-2 transition-all duration-300 transform hover:scale-110"
+                  className="bg-gray-100 hover:bg-slate-400 hover:text-white text-gray-700 rounded-lg p-2 transition-all duration-300 transform hover:scale-110"
                   aria-label="Instagram"
                 >
                   <FaInstagram size={20} />
@@ -108,25 +108,25 @@ const Navbar = () => {
           <div className="flex justify-center items-center space-x-4 border-t border-gray-200 pt-3">
             <button
               onClick={() => scrollToSection("about")}
-              className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-all duration-200"
+              className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-slate-400 hover:bg-slate-50 rounded-lg transition-all duration-200"
             >
               About Me
             </button>
             <button
               onClick={() => scrollToSection("projects")}
-              className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-all duration-200"
+              className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-slate-400 hover:bg-slate-50 rounded-lg transition-all duration-200"
             >
               Projects
             </button>
             <button
               onClick={() => scrollToSection("testimonials")}
-              className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-all duration-200"
+              className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-slate-400 hover:bg-slate-50 rounded-lg transition-all duration-200"
             >
               Testimonials
             </button>
             <button
               onClick={() => scrollToSection("contact")}
-              className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-all duration-200"
+              className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-slate-400 hover:bg-slate-50 rounded-lg transition-all duration-200"
             >
               Contact
             </button>
@@ -141,7 +141,7 @@ const Navbar = () => {
               <h1 className="font-bold text-lg text-gray-900">
                 Supriyandi La Awe
               </h1>
-              <p className="text-xs text-indigo-600 font-medium">
+              <p className="text-xs text-slate-600 font-medium">
                 Fullstack Developer
               </p>
             </div>
@@ -167,25 +167,25 @@ const Navbar = () => {
             {/* Navigation Links */}
             <button
               onClick={() => scrollToSection("about")}
-              className="w-full text-left px-4 py-3 text-sm font-medium text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-all duration-200"
+              className="w-full text-left px-4 py-3 text-sm font-medium text-gray-700 hover:text-slate-600 hover:bg-slate-50 rounded-lg transition-all duration-200"
             >
               About Me
             </button>
             <button
               onClick={() => scrollToSection("projects")}
-              className="w-full text-left px-4 py-3 text-sm font-medium text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-all duration-200"
+              className="w-full text-left px-4 py-3 text-sm font-medium text-gray-700 hover:text-slate-600 hover:bg-slate-50 rounded-lg transition-all duration-200"
             >
               Projects
             </button>
             <button
               onClick={() => scrollToSection("testimonials")}
-              className="w-full text-left px-4 py-3 text-sm font-medium text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-all duration-200"
+              className="w-full text-left px-4 py-3 text-sm font-medium text-gray-700 hover:text-slate-600 hover:bg-slate-50 rounded-lg transition-all duration-200"
             >
               Testimonials
             </button>
             <button
               onClick={() => scrollToSection("contact")}
-              className="w-full text-left px-4 py-3 text-sm font-medium text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-all duration-200"
+              className="w-full text-left px-4 py-3 text-sm font-medium text-gray-700 hover:text-slate-600 hover:bg-slate-50 rounded-lg transition-all duration-200"
             >
               Contact
             </button>
@@ -198,7 +198,7 @@ const Navbar = () => {
                 </span>
                 <a
                   href="mailto:supriyandilaawe@gmail.com"
-                  className="text-sm text-gray-800 hover:text-indigo-600 transition-colors block"
+                  className="text-sm text-gray-800 hover:text-slate-600 transition-colors block"
                 >
                   supriyandilaawe@gmail.com
                 </a>
@@ -209,7 +209,7 @@ const Navbar = () => {
                 </span>
                 <a
                   href="tel:+6282198069466"
-                  className="text-sm text-gray-800 hover:text-indigo-600 transition-colors block"
+                  className="text-sm text-gray-800 hover:text-slate-600 transition-colors block"
                 >
                   +62 821-9806-9466
                 </a>
@@ -222,7 +222,7 @@ const Navbar = () => {
                 href="https://github.com/yand06"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gray-100 hover:bg-indigo-600 hover:text-white text-gray-700 rounded-lg p-3 transition-all duration-300"
+                className="bg-gray-100 hover:bg-slate-600 hover:text-white text-gray-700 rounded-lg p-3 transition-all duration-300"
                 aria-label="GitHub"
               >
                 <FaGithub size={22} />
@@ -231,7 +231,7 @@ const Navbar = () => {
                 href="https://linkedin.com/in/supriyandi-la-awe"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gray-100 hover:bg-indigo-600 hover:text-white text-gray-700 rounded-lg p-3 transition-all duration-300"
+                className="bg-gray-100 hover:bg-slate-600 hover:text-white text-gray-700 rounded-lg p-3 transition-all duration-300"
                 aria-label="LinkedIn"
               >
                 <FaLinkedin size={22} />
@@ -240,7 +240,7 @@ const Navbar = () => {
                 href="https://instagram.com/yand_la"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gray-100 hover:bg-indigo-600 hover:text-white text-gray-700 rounded-lg p-3 transition-all duration-300"
+                className="bg-gray-100 hover:bg-slate-600 hover:text-white text-gray-700 rounded-lg p-3 transition-all duration-300"
                 aria-label="Instagram"
               >
                 <FaInstagram size={22} />
