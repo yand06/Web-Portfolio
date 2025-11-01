@@ -81,36 +81,6 @@ const About = () => {
             </div>
           ))}
         </div>
-
-        {/* Bottom Stats/Info (Optional) */}
-        <div className="mt-20 pt-12 border-t-2 border-slate-200">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-3xl font-bold text-slate-900 mb-2">1+</div>
-              <div className="text-sm text-slate-500 font-medium uppercase tracking-wider">
-                Years Experience
-              </div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-slate-900 mb-2">5+</div>
-              <div className="text-sm text-slate-500 font-medium uppercase tracking-wider">
-                Projects Done
-              </div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-slate-900 mb-2">6+</div>
-              <div className="text-sm text-slate-500 font-medium uppercase tracking-wider">
-                Technologies
-              </div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-slate-900 mb-2">100%</div>
-              <div className="text-sm text-slate-500 font-medium uppercase tracking-wider">
-                Client Satisfaction
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
